@@ -33,6 +33,9 @@ body {
   border: none;
   padding: 5px;
 }
+.settings input:first-child {
+  margin-top: 30px;
+}
 
 .container {
   width: 40vw;
@@ -46,7 +49,7 @@ body {
 .watchBandPerfiler {
   position: absolute;
   background-color: var(--secondary-color);
-  width: 18.2vw;
+  width: 18.4vw;
   height: 4vw;
   top: -7vw;
   border-radius: 2vw;
@@ -92,9 +95,9 @@ body {
 }
 
 .watchBandPerfilerDown {
-  top: 48.2vw;
-  width: 18.4vw;
-  left: 10.8vw;
+  top: 48.3vw;
+  width: 18.35vw;
+  left: 10.9vw;
   z-index: -1;
   transform: rotate(180deg);
 }
